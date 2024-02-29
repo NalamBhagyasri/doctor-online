@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2 style="color: orange">Jenkins Demo</h2>
+<h2 style="color: orange">Jenkins Build triggers</h2>
 </body>
 </html>
