@@ -19,3 +19,12 @@ pipeline{
         }
     }
 }
+post {
+    success {
+        echo "Successfully implemented"
+    }
+    failure {
+        echo "This job failed"
+    }
+}
+
