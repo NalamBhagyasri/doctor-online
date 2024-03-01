@@ -20,10 +20,10 @@ pipeline{
     }
     post {
         success {
-            echo "Sending success email..."
+            echo "Successfully implemented"
         }
         failure {
-            echo "Sending failure email..."
+            echo "this job is failed"
         }
     }
 }
