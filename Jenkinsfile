@@ -18,13 +18,14 @@ pipeline{
             }
         }
     }
-}
-post {
-    success {
-        echo "Successfully implemented"
+    post {
+        success {
+            echo "Sending success email..."
+        }
+        failure {
+            echo "Sending failure email..."
+        }
     }
-    failure {
-        echo "This job failed"
-    }
 }
+ 
 
